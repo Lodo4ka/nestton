@@ -1,47 +1,47 @@
 import React from 'react';
-import TransactionHistory from '../components/TransactionHistory';
+// import TransactionHistory from '../components/TransactionHistory';
 import SwapForm from '../components/SwapForm';
 import TokenInfo from '../components/TokenInfo';
 import Shortcuts from '../components/Shortcuts';
 
 const MainContent: React.FC = () => {
-  const transactions = [
-    {
-      type: 'buy',
-      date: '01.01.1970 13:00',
-      fromAmount: '100',
-      fromCurrency: 'TON',
-      toAmount: '1200',
-      toCurrency: 'NOTGEM',
-    },
-    {
-      type: 'sell',
-      date: '01.01.1970 13:05',
-      fromAmount: '1200',
-      fromCurrency: 'NOTGEM',
-      toAmount: '200',
-      toCurrency: 'TON',
-      percentageChange: '+100%',
-    },
-    {
-      type: 'buy',
-      date: '01.01.1970 13:07',
-      fromAmount: '200',
-      fromCurrency: 'TON',
-      toAmount: '1100',
-      toCurrency: 'NOTGEM',
-      percentageChange: '+2%',
-    },
-    {
-      type: 'sell',
-      date: '01.01.1970 13:09',
-      fromAmount: '1100',
-      fromCurrency: 'NOTGEM',
-      toAmount: '100',
-      toCurrency: 'TON',
-      percentageChange: '-50%',
-    },
-  ];
+  // const transactions = [
+  //   {
+  //     type: 'buy',
+  //     date: '01.01.1970 13:00',
+  //     fromAmount: '100',
+  //     fromCurrency: 'TON',
+  //     toAmount: '1200',
+  //     toCurrency: 'NOTGEM',
+  //   },
+  //   {
+  //     type: 'sell',
+  //     date: '01.01.1970 13:05',
+  //     fromAmount: '1200',
+  //     fromCurrency: 'NOTGEM',
+  //     toAmount: '200',
+  //     toCurrency: 'TON',
+  //     percentageChange: '+100%',
+  //   },
+  //   {
+  //     type: 'buy',
+  //     date: '01.01.1970 13:07',
+  //     fromAmount: '200',
+  //     fromCurrency: 'TON',
+  //     toAmount: '1100',
+  //     toCurrency: 'NOTGEM',
+  //     percentageChange: '+2%',
+  //   },
+  //   {
+  //     type: 'sell',
+  //     date: '01.01.1970 13:09',
+  //     fromAmount: '1100',
+  //     fromCurrency: 'NOTGEM',
+  //     toAmount: '100',
+  //     toCurrency: 'TON',
+  //     percentageChange: '-50%',
+  //   },
+  // ];
 
   const tokenInfo = {
     price: '$0.01863',
